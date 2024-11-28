@@ -1,0 +1,80 @@
+#btn{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255,238,140);
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    font-family: "Comic Sans MS",cursive;
+    font-size: 25px;
+    border-radius: 25px;
+}
+
+#btn:hover{
+    opacity: 0.8;
+}
+
+#btn:active{
+    opacity: 0.6;
+}
+
+body{
+    background-color: rgb(204,183,156);
+}
+
+img{
+    display: block;
+    width: 200px;
+}
+
+.container{
+    display: inline-block;
+    width: 200px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.headings{
+    border-color: white;
+    color: white;
+    border-width: 4px;
+    border-style: double;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: papyrus,fantasy;
+    font-weight: bold;
+}
+
+.rec-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.dialogue{
+    background-color: rgb(167, 199, 231);
+    font-family: 'Indie Flower',cursive;
+    font-size: 30px;
+}
+
+.dialogue p{
+    display: inline-block;
+}
+
+.dialogue-button{
+    font-size: 20px;
+    border-radius: 10px;
+    float:right;
+}
